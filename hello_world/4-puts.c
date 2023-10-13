@@ -1,22 +1,5 @@
 #!/bin/bash
 #include <stdio.h>
-/*
- * 
- *
- */
+ puts("\"Programming is like building a multilingual puzzle");
 
-int main(void)
-{
--
-/*
- *
- *
- *
- *
- *
- *
- *
- * */
-	char output[] = "\"Programming is like buiding a multilingual puzzle";
-
-   puts (output);
+ return (0);
