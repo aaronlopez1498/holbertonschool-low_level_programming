@@ -21,4 +21,5 @@ printf("Last digit of %d is%x of  0\n", n);
 if ( n < 6, x > 0)
 
 printf("Last digit of %d is %x is less than 6 x > 0\n");
+ return (0);
 }
