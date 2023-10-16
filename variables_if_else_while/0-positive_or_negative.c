@@ -5,8 +5,8 @@
 
 /**
  *
- *
- *
+ *main-program to sort numbers if positive negative or zero
+ *Return:positive if >0, negative if <0, zero if =0
  *
  *
  */
@@ -19,10 +19,10 @@ int main(void)
 					/* your code goes there */
 
 				if (n>0)
-					printf(" is positive\n");
+					printf(" is positive\n,n");
 				else if (n==0)
-					printf(" is zero\n");
+					printf(" is zero\n,n");
 				else
-					printf("is negative\n");
+					printf("is negative\n,n");
 				return (0);
 }
