@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main- program to sort numbers if positive negative or zero
+ * main - program to sort numbers if positive negative or zero
  * Return positive if >0, negative if <0, zero if =0
  */
 int main(void)
