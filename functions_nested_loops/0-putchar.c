@@ -6,15 +6,13 @@
  */
 int main(void)
 {
-	putchar('H');
-	putchar('o');
-	putchar('l');
-	putchar('b');
-	putchar('e');
-	putchar('r');
+	putchar('p');
+	putchar('u');
 	putchar('t');
-	putchar('o');
-	putchar('n');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
 
 	return (0);
