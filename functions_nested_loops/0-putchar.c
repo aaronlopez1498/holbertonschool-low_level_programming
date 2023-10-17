@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	_putcher('H');
-	_putcher('o');
-	_putcher('l');
-	_putcher('b');
-	_putcher('e');
-	_putcher('r');
-	_putcher('t');
-	_putcher('o');
-	_putcher('n');
-	_putcher('\n');
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
 
 	return (0);
 }
