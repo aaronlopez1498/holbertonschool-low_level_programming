@@ -1,5 +1,5 @@
 #include <stdio.h>
-#imclude "main.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - 10 times a-z
  *
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		for alpha = 'a'; alpha <= 'z' alpha++)
 		{
-			puchar(alpha);
+			putchar(alpha);
 		}
 		putchar('\n');
 		alpha++;
