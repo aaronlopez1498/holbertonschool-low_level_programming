@@ -8,8 +8,8 @@
 int main(void)
 {
 	jack_bauer();
-	if (head is 00:00)
-		_putchar 00:00
+	if ((head) is 00: 00)
+		_putchar; 00:00
 
 			last(tail is 23:59)
 			_putchar 23:59
