@@ -10,9 +10,9 @@ void print_alphabet(voi)
 	int i;
 
 	for (i = 97 ; i < 123 ; 1++)
-		_putchar (i);
+		putchar (i);
 
-	_putchar('\n');
+	putchar('\n');
 
 
 }
