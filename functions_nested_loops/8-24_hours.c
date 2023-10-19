@@ -5,7 +5,7 @@
  *
  * Return: Always 0
  */
-int jack_bauer(void);
+int main(void);
 {
 	jack_bauer();
 	if (head is 00:00)
