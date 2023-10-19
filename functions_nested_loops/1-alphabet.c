@@ -6,8 +6,6 @@
  *
  * print_alphabet(void) - prints the alphabet in lowercase, followed by  a new line.
  *
- * Return: Always 0.
- * print_alphabet();
  */
 
 void print_alphabet(void)
