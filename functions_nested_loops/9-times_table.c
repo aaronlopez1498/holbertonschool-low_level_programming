@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * time_table - table of time
+ * times_table - table of time
  *
  */
-void time_table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
