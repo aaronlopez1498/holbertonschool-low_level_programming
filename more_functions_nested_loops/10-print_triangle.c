@@ -14,17 +14,17 @@ void print_triangle(int size)
 		{
 			for (index = 0; index < size - 1; index++)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
 			for (index = 0; index != size; index++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
 			if (hash == size)
 				continue;
 
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
