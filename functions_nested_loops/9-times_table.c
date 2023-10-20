@@ -4,7 +4,7 @@
 /**
  * times_table - Prints the 9 times table, startimg with 0.
  */
-void times_table(void)
+void time_table(void)
 {
 	int num, mult, prod;
 
