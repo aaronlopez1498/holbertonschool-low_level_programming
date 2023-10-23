@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * main - check the code
  * n = value
  *
  * Return: Always 0.
