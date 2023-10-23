@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _puts- Execute function
- * @str: holds astring
+ * @str: holds a string
  *
  */
 void _puts(char *str)
