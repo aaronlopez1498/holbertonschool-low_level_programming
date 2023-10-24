@@ -2,7 +2,7 @@
 
 /**
  * _puts - Printer
- * @str:string to be printed
+ * @str: string to be printed.
  */
 
 void _puts(char *str)
