@@ -1,4 +1,4 @@
-:x
+#include "main.h"
 
 /**
  * puts2 - Prints one char of two of a string.
