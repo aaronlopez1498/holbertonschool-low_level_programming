@@ -4,9 +4,10 @@
  * _strcpy - function that copies a string.
  * @dest: A buffer to copy the string to.
  * @src: The source string to copy.
- *Return: dest.
+ *
+ *Return: dest
  */
-char *_strcpy(char *dest, conts char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
