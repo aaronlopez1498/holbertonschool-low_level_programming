@@ -4,12 +4,13 @@
  **cap_string- execute cap function
  **word_start- execute bool function
  *@str: point to a char string
- *Return: in cap the string, in bool the result
+ *Return: in cap the string
  */
 char *cap_string(char *str)
 {
 	int i = 0, j;
 	char Separator [13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+
 	for (; str[i] != '\0'; i++)
 	{
 		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
