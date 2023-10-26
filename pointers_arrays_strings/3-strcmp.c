@@ -24,4 +24,4 @@ int _strcmp(char *s1, char *s2)
 		return (-13);
 	else
 		return (13);
-}/*end function scope*/
+} /*end function scope*/
