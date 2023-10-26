@@ -1,15 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 /**
- **cap_string- execute cap function
- **word_start- execute bool function
+ **cap_string- execute cap
+ **word_start- execute bool
  *@str: point to a char string
  *Return: in cap the string
  */
 char *cap_string(char *str)
 {
 	int i = 0, j;
-	char Separator [13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char Separator [6] = {' ', '\t', '\n', ',', ';', '.'};
+	char Separaror [7] = {'!', '?', '"', '(', ')', '{', '}'};
 
 	for (; str[i] != '\0'; i++)
 	{
