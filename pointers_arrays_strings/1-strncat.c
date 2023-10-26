@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  **_strncat- execute the function
- *@edeet: points to a char array
+ *@dest: points to a char array
  *@src: points ti a char array
  *@n: recives an int
  *Return: pointers ti dest
