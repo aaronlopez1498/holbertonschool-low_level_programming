@@ -10,6 +10,7 @@ char *lett(char *str)
 	/*Variables*/
 	int i = 0, j = 0, half;
 	char checkers[10] = { 'A', 'a', 'E', 'e', 'o', 'O', 't', 'T', 'l', 'L'};
+char num[5] = {'4', '3', '0', '7', '1'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
