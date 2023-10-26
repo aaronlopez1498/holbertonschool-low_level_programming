@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * string_toupper-execute function
+ * string_toupper- execute function
  * @a: points to an cahr
  * Return: 0
  *
@@ -16,7 +16,7 @@ char *string_toupper(char *a)
 	for (i = 0; i < size ; i++)
 	{
 		if (a[i] >= 'a' && a[i] <= 'z')
-				a[i] -= 32;
+			a[i] -= 32;
 	}
 	return (a);
 }
