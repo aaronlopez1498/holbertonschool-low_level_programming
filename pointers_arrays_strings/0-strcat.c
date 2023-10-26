@@ -7,7 +7,7 @@
  * Return: A pointer to the destination string @dest.
  */
 
-{
+ do{
 	int index = 0, dest_len = 0;
 
 	while (dest[index++])
