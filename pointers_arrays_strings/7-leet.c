@@ -5,7 +5,7 @@
  *@str: point to a string
  *Return: str pointer
  */
-char *let(char *str)
+char *leet(char *str)
 {
 	/*Variables*/
 	int i = 0, j = 0, half;
