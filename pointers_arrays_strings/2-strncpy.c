@@ -1,18 +1,24 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * *_strchr- Execute function
- * @s: Points to a char
- * @c: holds a char value
- * Return: pointer to a string or null dependingon the if
+ * *_strncpy- Execute function
+ * @dest: Points to a cahr
+ * @src: points to a cahr
+ * @n: receives an int
+ * Return: a pointer to an array
  */
-char *_strchr(char *s, char c)
+char *_strncpy(char *dest, char *src, int n)
 {
-	do{
-		/*evaluates the valueof s at a certain position*/
-		if (*s == c)
-		{
-			return (s);
-		}
-	}while (*s++);
-	return (0);
-}/*end function*/
+	int size = 0, j = 0;
+	while (dest[size])
+	{
+		size++;
+	}
+	for (j = 0; j < n && src[j] != '\0'; j++)
+		dest[j] = src[j];
+
+	for (;j < n; j++)
+		dest[j] = '\0';
+
+	return (dest);
+}
