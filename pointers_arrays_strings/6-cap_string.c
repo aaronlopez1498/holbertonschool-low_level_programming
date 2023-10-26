@@ -10,13 +10,13 @@ char *cap_string(char *str)
 {
 	/*variables*/
 	int i = 0, j;
-	char Separator[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char Separator [13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 	/*loops for moving along the data in the arrays*/
 	for (; str[i] != '\0'; i++)
 	{
 		/*check if*/
 		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
-			str[i] -=32
+			str[i] -=32;
 				for (j = 0; j < 13 ; j++)
 				{
 					if (str[i] == Separator[j])
