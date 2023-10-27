@@ -10,21 +10,16 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, n, check;
+	unsigned int check = 0;
 
-	check = 0;
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		check++;
-
-		for (n = 0; accept[n] != '\0'; n++)
-		{
-			if (accept[n] == s[i])
+	do{
+		do{
+			if (*accept == *s)
 			{
+				printf("inside the if");
 				check++;
 			}
-		}
-	}
-	return (check);
+		} while (*s++);
+	} while (*accept++);
+	return (check + 1);
 }
