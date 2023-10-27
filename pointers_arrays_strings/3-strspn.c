@@ -21,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[n] == s[i])
 			{
-				check++
+				check++;
 			}
 		}
 	}
