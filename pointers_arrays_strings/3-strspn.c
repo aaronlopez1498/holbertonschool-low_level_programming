@@ -14,9 +14,9 @@ unsigned int _strspn(char *s, char *accept)
 	char *start = accept;
 	int flag;
 
-	do{
+	do {
 		flag = 0;
-		do{
+		do {
 			if (*accept == *s)
 			{
 				check++;
