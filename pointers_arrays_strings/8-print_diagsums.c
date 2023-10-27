@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * primt_diagsums - print the sum of the diagonals
+ * print_diagsums - print the sum of the diagonals
  * @a: the matrix
  * of the integers
  * @size: the size of the matrix.
