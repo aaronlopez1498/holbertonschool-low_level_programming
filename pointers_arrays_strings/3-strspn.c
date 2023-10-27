@@ -16,7 +16,6 @@ unsigned int _strspn(char *s, char *accept)
 		do{
 			if (*accept == *s)
 			{
-				printf("inside the if");
 				check++;
 			}
 		} while (*s++);
