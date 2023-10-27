@@ -2,23 +2,23 @@
 
 /**
  * _strspn - Entry point
- * @t: input
- * @acc: input
+ * @s: input
+ * @accept: input
  * Return: Always 0 (Success)
  */
 
-unsigned int _strspn(char *t, char acc)
+unsigned int _strspn(char *s, char accept)
 {
 	unsigned int i, n, value, check;
 		value = 0;
 
-	for (i = 0; t[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		check = 0;
 
-		for (n = 0; acc[n] != '\0'; n++)
+		for (n = 0; accept[n] != '\0'; n++)
 		{
-			if (acc[n] == t[i])
+			if (accept[n] == t[i])
 			{
 				value++;
 				check = 1;
