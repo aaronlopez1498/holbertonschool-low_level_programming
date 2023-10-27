@@ -11,14 +11,24 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int check = 0;
+	char *start = accept;
+	int flag;
 
 	do{
+		flag = 0;
 		do{
 			if (*accept == *s)
 			{
 				check++;
+				flag = 1;
+				break;
 			}
-		} while (*s++);
-	} while (*accept++);
-	return (check + 1);
+			accept++;
+		} while (*accept);
+		s++;
+		accept = start;
+		if (flag == 0)
+			break;
+	} while (*s);
+	return (check);
 }
