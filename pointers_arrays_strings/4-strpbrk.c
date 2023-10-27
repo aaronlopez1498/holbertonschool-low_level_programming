@@ -5,7 +5,7 @@
  *@s: The string to be searched.
  *@accept: the setv of bytes to be searched for.
  *
- *Return: ifa set is matchad - a pointer to the matched byte.
+ *Return: ifa set is matchad - a pointer to the matched byte
  if no set is matched - NULL
  */
 char *_strpbrk(char *s, char *accept)
