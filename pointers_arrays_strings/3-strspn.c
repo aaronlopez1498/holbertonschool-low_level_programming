@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-unsigned int _strspn(char *s, char accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, n, value, check;
 		value = 0;
@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char accept)
 
 		for (n = 0; accept[n] != '\0'; n++)
 		{
-			if (accept[n] == t[i])
+			if (accept[n] == s[i])
 			{
 				value++;
 				check = 1;
