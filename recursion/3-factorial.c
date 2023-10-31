@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * factorial _ returns the factorialof a given number.
- * @n: the number to find the factorial of
+ * factorial - Returns the factorial of a given number.
+ * @n: The number to find the factorial of
  *
  * Return: if n > 0 - the factorial of n.
  *         if n < 0 - 1 to indicate an error.
