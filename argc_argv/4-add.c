@@ -8,7 +8,7 @@
  * @argv: Am array of pointer to the arguments.
  *
  * Return: if the numbers contains symbols that are non-digits - 1.
- *      Otherwise - 1.
+ *      Otherwise - 0.
  */
 int main(int argc, char *argv[])
 {
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		for (digit = 0; argv[num][digit]; digit++)
 		{
-			if (argv[num][digit] < '0' || argv[num]digit] > '9')
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
 			{
 				printf("Error\n");
 				return (1);
@@ -27,5 +27,6 @@ int main(int argc, char *argv[])
 		sum += atoi(argv[num]);
 	}
 	printf("%d\n", sum);
+
 	return (0);
 }
