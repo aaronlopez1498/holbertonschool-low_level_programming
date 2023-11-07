@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-**_st:::  Returns a pointer to a newly-allocated space in memory
+**_str: Returns a pointer to a newly-allocated space in memory
 containing a copy of the string given as parameter.
 * str: The string to be copied.
 *
