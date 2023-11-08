@@ -12,7 +12,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *mem
+	void *mem;
 	char *filler;
 	unsigned int index;
 
