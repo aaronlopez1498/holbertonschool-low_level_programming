@@ -3,11 +3,11 @@
 
 /**
  * _strchr - Entry point
- * @a: input
- * @d: input
+ * @s: input
+ * @c: input
  * Return: Always 0 (Success)
  */
-char *_strchr(char *a, char d)
+char *_strchr(char *s, char c)
 {
 	int i;
 

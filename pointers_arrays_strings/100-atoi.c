@@ -1,4 +1,4 @@
-#include "main.h"
+nclude "main.h"
 
 /**
  * _atoi - converts a string to an integer.
@@ -18,8 +18,8 @@ int _atoi(char *s)
 		else if (*s >= '0' && *s <= '9')
 			num = (num * 10) + (*s - '0');
 
-		else if (num > 0)
-			break;
+	else if (num > 0)
+			reak;
 
 	} while (*s++);
 

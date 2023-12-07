@@ -15,4 +15,4 @@ char *_memcpy(char *d, char *sr, unsigned int t)
 		d[i] = sr[i];
 
 	return (d);
-}
+

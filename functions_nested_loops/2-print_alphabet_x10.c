@@ -1,23 +1,23 @@
-#include <stdio.h>
-#include "main.h"
+include "main.h"
+
 /**
- * print_alphabet_x10 - 10 times a-z
+ * main - check the code
  *
- * Return: Always 0
- * gg = G indents file
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-	char alpha;
 	int i = 0;
+	char c;
 
-	while (i++ <= 9)
+	while (i < 10)
 	{
-		for (alpha = 'a'; alpha <= 'z';  alpha++)
+		c = 'a';
+		while (c <= 'z')
 		{
-			putchar(alpha);
+			_putchar(c);
+			c++;
 		}
-		putchar('\n');
-		alpha++;
+		_putchar('\n');
 	}
 }

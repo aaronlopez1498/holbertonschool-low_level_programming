@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strspn - Entry point
+ * _strspn - Entry poin
  * @s: input
  * @accept: input
  * Return: Always 0 (Success)
@@ -13,7 +13,6 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int check = 0;
 	char *start = accept;
 	int flag;
-
 	do {
 		flag = 0;
 		do {

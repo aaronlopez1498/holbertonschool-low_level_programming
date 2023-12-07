@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 #include "main.h"
 /**
  * jack_bauer - the day minute by minute
